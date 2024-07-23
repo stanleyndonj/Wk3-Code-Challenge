@@ -63,3 +63,12 @@ button:hover {
     text-decoration: line-through;
     background-color: #d3d3d3;
 }
+
+#clearListButton {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+#clearListButton:hover {
+    background-color: #218838;
+}
