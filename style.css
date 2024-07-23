@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#shoppingList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#shoppingList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#shoppingList li span {
+    cursor: pointer;
+}
+
+#shoppingList li button {
+    margin-left: 10px;
+    background-color: #dc3545;
+}
+
+#shoppingList li button:hover {
+    background-color: #c82333;
+}
+
+.purchased {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+}
